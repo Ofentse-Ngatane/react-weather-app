@@ -5,11 +5,12 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container text-centered">
         <Weather defaultCity="Johannesburg" />
         <footer>
           This project was coded by{" "}
           <a
+            text="decoration-none"
             href="https://dynamic-froyo-de370c.netlify.app/"
             target="_blank"
             rel="noreferrer"
